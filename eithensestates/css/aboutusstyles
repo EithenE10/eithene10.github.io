@@ -1,0 +1,14 @@
+body{background-color: white; margin: 0; font-family:Arial;}
+
+
+#whitebox4{width: 500px;
+height: 500px;
+background-color: white;
+margin-left: 150px;
+margin-top:105px;
+margin-bottom: 100px;
+display: flex;
+border: 5px solid #D4AF37;
+border-radius: 25px;
+position: relative;
+}

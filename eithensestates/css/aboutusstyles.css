@@ -1,0 +1,350 @@
+body{background-color: white; margin: 0; font-family:Arial;}
+
+#container{margin: auto; 
+    width: 80%;
+	background-color: grey;
+	border: 5px solid #D4AF37;
+	}
+	
+#header{
+	background-color: #ffffff;
+	height: 300px;
+	clear: bottom;
+	}
+
+#sitename{ float: left; width: 300px; padding-top: 20px;}
+#logo {float:left; width: 150px;}
+	
+#nav{background-color: #212121;
+	clear: top;
+	padding: 5px;
+      }
+	
+#content{background-color: #212121;
+    padding: 10px;
+	min-height: 300px;
+	clear: top;
+	vertical-align: top;
+ }
+	
+
+ 
+#content a {background-color: #673AB7; color: white; text-decoration:none; padding:5px;}
+#content a:hover {background-color: #D4AF37; color: white;}
+
+
+
+#whitebox1{width: 330px;
+height: 500px;
+background-color: white;
+margin-left: 75px;
+margin-top:60px;
+margin-bottom: 100px;
+display: flex;
+border: 5px solid #D4AF37;
+border-radius: 25px;
+position: relative;
+}
+
+#whitebox1 img{
+width: 65%;
+position: center;
+margin:auto;
+margin-top:40px;
+}
+
+#whitebox1 h2 {
+position: absolute;
+padding-left: 60px;
+padding-top: 320px;
+}
+
+#whitebox1 p {
+position: absolute;
+padding-left: 40px;
+padding-top: 370px;
+}
+
+
+#whitebox2{width: 330px;
+height: 500px;
+background-color: white;
+margin-left: 500px;
+margin-top: -610px;
+margin-bottom: 100px;
+display: flex;
+border: 5px solid #D4AF37;
+border-radius: 25px;
+position: absolute;
+}
+
+#whitebox2 h1 {
+position: absolute;
+padding-left: 90px;
+padding-top: 0px;
+padding-right: 10px;
+}
+
+#whitebox2 p {
+position: absolute;
+padding-left: 40px;
+padding-top: 90px;
+padding-right: 20px;
+}
+
+#whitebox2 ul {
+position: absolute;
+padding-left:40px;
+padding-top: 190px;
+padding-right: 20px;
+}
+
+#whitebox3{width: 330px;
+height: 500px;
+background-color: white;
+margin-left: 930px;
+margin-top: -610px;
+margin-bottom: 100px;
+display: flex;
+border: 5px solid #D4AF37;
+border-radius: 25px;
+position: absolute;
+}
+
+#whitebox3 img{
+width: 65%;
+position: center;
+margin:auto;
+margin-top:40px;
+}
+
+#whitebox3 h2 {
+position: absolute;
+padding-left: 60px;
+padding-top: 320px;
+}
+
+#whitebox3 p {
+position: absolute;
+padding-left: 40px;
+padding-top: 370px;
+}
+
+
+
+
+
+
+
+
+#footer{
+color: red;
+background-color: #212121;
+height: 30px;
+color: white;
+border-top: 5px solid #D4AF37;
+border-right: 0px solid #D4AF37;
+border-left: 0px solid #D4AF37;
+border-bottom: 0px solid #D4AF37;
+padding: 10px;}
+	
+.page-footer{
+	color:white;
+}
+
+
+
+.backbutton:hover {
+color:black;
+}
+	
+.backbutton, .backbutton a{
+text-align:center;
+font-size: 0.9em;
+color:white;
+background-color: #D4AF37;
+border-radius: 25px;
+border: 5px solid #673AB7;
+}
+
+
+/*table styles*/
+
+table td {padding: 10px;
+	border: 2px solid #D4AF37;}
+table {width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;}
+
+table tr:nth-child(1) {
+	background-color: #673AB7;
+    height: 40px;
+	}
+table tr {
+	background-color:#212121;
+	color: white;
+	}
+#addtestimonial table {border: 0px;}
+#addtestimonial table tr td {padding: 0px; border: 0px;}
+#addtestimonial table tr {background-color: #c6e1e0; border: 0px;}
+
+
+.show {display:block;}
+
+/*form styles*/
+#commentform { 
+	       font-family: Arial;
+                 width: auto;
+	     }
+label { float:left;
+	width: 50px; 
+	clear: left;
+	text-align: left;
+	padding-right: 15px;
+	margin-top: 10px;
+	}
+input, textarea {margin-top: 10px; margin-left: 20px; }
+#mysubmit { margin-left:85px;
+		padding-bottom: 10px;
+	      }
+#socialmedia a {text-decoration: none;}
+#socialmedia {float: right; width: auto;}
+  
+
+/*navbar styles w3schools*/
+.topnav {
+  overflow: hidden;
+  background-color: #212121;
+  border-top: 5px solid #D4AF37;
+  border-bottom: 5px solid #D4AF37;
+}
+
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #D4AF37;
+  background-color: #212121;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #212121;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav input[type=text] {
+	float:right;
+	padding: 6px;
+	margin-right: 16px;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: #D4AF37;
+  padding: 14px 16px;
+  background-color: #212121;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #212121;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #D4AF37;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #212121;
+  color: #673AB7;
+}
+
+.dropdown-content a:hover {
+  background-color: #212121;
+  color: #673AB7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*media queries 768px*/
+
+@media only screen and (max-width: 768px) {
+	body{font-size:90%;}
+	#commentform{width: auto; font-size: 80%;}
+	#mysubmit{margin-left: 0;}
+    th:nth-of-type(4){display:none;}
+	td:nth-of-type(4){display:none;}
+
+	#content{ padding: 10px;}
+    #container{margin: 0; width: auto;}
+
+   .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+        
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*media queries 500px*/
+
+@media screen and (max-width: 500px) {
+  	#displayproducts td:nth-child(2){display:none;}
+    #displayproducts td {width: 30%;}
+    
+}
