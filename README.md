@@ -1,4 +1,4 @@
-# eithene10.github.io
+# eithensestates
 Real Estate Website - Eithen's Estates
 
 This is my real estate company website I developed from scratch alone. Contains alot of CSS/HTML but is responsive and allows back end support like adding properties/testimonials
